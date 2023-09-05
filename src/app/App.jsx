@@ -1,7 +1,10 @@
 import TransactionHistory from "../features/transactions/TransactionHistory";
 import Transactions from "../features/transactions/Transactions";
+import { useSelector } from "react-redux" 
 
 import "./app.css";
+
+
 
 // TODO: Import the Redux store and provide it to this component using <Provider>.
 const App = () => {
@@ -11,6 +14,8 @@ const App = () => {
       <Transactions />
       <TransactionHistory />
     </main>
+    
+
   );
 };
 
